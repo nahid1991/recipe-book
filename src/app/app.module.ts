@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./header.component";
@@ -31,6 +32,7 @@ import { RecipeStartComponent } from './recipes/recipe-start.component';
   imports: [
     BrowserModule,
     routing,
+    FormsModule
   ],
   bootstrap: [AppComponent]
 })
